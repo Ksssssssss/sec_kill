@@ -1,0 +1,12 @@
+redis:
+  host: 10.2.21.65
+  port: 6379
+  maxTotal: 500
+  maxIdle: 500
+  minIdle: 0
+  testOnBorrow: false
+  testOnReturn: false
+server:
+  port: 8085
+  servlet:
+    context-path: /demo
